@@ -39,7 +39,7 @@ spec:
     - metadata:
         name: data-volume
       spec:
-        storageClassName: gcp-storage-class
+        storageClassName: azure-storage-class
         accessModes:
           - ReadWriteOnce
         resources:
